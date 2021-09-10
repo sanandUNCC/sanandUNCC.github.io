@@ -1,0 +1,64 @@
+body
+{
+	font-family:'Lucida Handwriting', 'Helvetica';
+	color: #53c51f ;
+	background-color: #5a37f7;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+
+header, footer
+{
+	text-align: center;
+	color: #57ac5e;
+	font-weight: bold;
+}
+
+h1, h2, h3
+{
+	color: #7e1188;
+	font-family: 'Monaco', "Lucida", 'Verdana';
+	text-align: center;
+}
+
+h3
+{
+	font-size: 200%;
+	line-height: 0px;
+}
+
+a
+{
+	text-decoration: none;
+	color:rgb(202, 35, 35);
+}
+
+a:hover
+{
+	text-decoration: overline underline;
+}
+
+
+figure
+{
+	text-align: center;
+  
+
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+
+nav
+{
+	text-align: center;
+}
+
+
+
+
+
