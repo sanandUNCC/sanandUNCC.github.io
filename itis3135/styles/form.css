@@ -22,14 +22,26 @@ h3{
 
 p {
 	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color:rgb(163, 55, 55);
 }
+
 
 div{
 	text-align: center;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	color:magenta;
 }
 
 footer {
     font-style: italic;
 	font-size: 14px;
 	text-align: center;
+}
+
+#submit{
+	margin-top: 20px;
+	background-color: rgb(46, 19, 71);
+	color: rgb(101, 218, 120);
+	font-style: inherit;
 }

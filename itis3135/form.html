@@ -15,43 +15,58 @@
 
     <main>
         <h2>Hey are you intersted in subscribing to our coffee shop newsletter??</h2>
-        <form >
+        <form action=#>
             <h2>If so, please enter your information below: </h2>
             <p>
                 <label for="name">Enter your name: </label>
-                <input type="text" id="name" name="custname" action=# placeholder = "John Smith">
+                <input type="text" id="name" name="custname" placeholder="John Smith" required>
             </p>
 
             <p>
                 <label for="phone">Enter your phone number: </label>
-                <input type="number" id="phone" name="custphone" action=# placeholder="1234567890">
+                <input type="number" id="phone" name="custphone" size=10 placeholder="1234567890" required>
             </p>
 
             <p>
                 <label for="email">Enter your email: </label>
-                <input type="email" id="email" name="custemail" action=# placeholder="johnsmith@gmail.com">
+                <input type="email" id="email" name="custemail" placeholder="johnsmith@gmail.com" required>
             </p>
 
             <h3>What gender do you ascribe to?</h3>
             <div>
-                <input type="radio" id="male" name="gender" value="Male" action=#>
+                <input type="radio" id="male" name="gender" value="Male">
                 <label for="male">Male</label>
-                <input type="radio" id="female" name="gender" value="Female" action=#>
+                <input type="radio" id="female" name="gender" value="Female">
                 <label for="female">Female</label>
-                <input type="radio" id="other" name="gender" value="Other" action=#>
+                <input type="radio" id="other" name="gender" value="Other">
                 <label for="other">Other</label>
             </div>
-            
+
             <h3>What would you want your newsletter to be about?</h3>
             <div>
-                <input type="checkbox" id="stats" name="content" value="Stats" action=#>
+                <input type="checkbox" id="stats" name="content" value="Stats">
                 <label for="stats">Coffee Statistics</label>
-                <input type="checkbox" id="history" name="content" value="History" action=#>
+                <input type="checkbox" id="history" name="content" value="History">
                 <label for="history">Our History</label>
-                <input type="checkbox" id="mchanges" name="content" value="Changes" action=#>
+                <input type="checkbox" id="mchanges" name="content" value="Changes">
                 <label for="mchanges">Menu Changes</label>
             </div>
 
+            <h3>Are you new to our newsletter?</h3>
+            <div>
+                <label for="Choice">Select an option: </label>
+                <select name="choice" id="choice">
+                    <option value="blank">...</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+              </div>
+              
+              <p>
+                <label for="sumbit">Submit Info Here: </label>
+                 <input id="submit" type="submit" value="Submit"> 
+              </p>
+              
         </form>
 
     </main>
