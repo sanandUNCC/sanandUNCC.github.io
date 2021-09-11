@@ -16,6 +16,14 @@ h1 {
 	color: #833917;
 }
 
+h2{
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
 /*styling for the overall table*/
 table {
     background-color: #F8F8F8;
