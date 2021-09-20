@@ -2,7 +2,7 @@ body
 {
 	font-family:'Lucida Handwriting', 'Helvetica';
 	color: #53c51f ;
-	background-color: #5a37f7;
+	background-color: #302561;
 	margin-left: 75px;
 	margin-right: 75px;
 }
@@ -31,7 +31,7 @@ h3
 a
 {
 	text-decoration: none;
-	color:rgb(202, 35, 35);
+	color:rgb(218, 25, 25);
 }
 
 a:hover
@@ -56,6 +56,11 @@ figcaption
 nav
 {
 	text-align: center;
+}
+
+.center{
+	text-align: center;
+	list-style-position: inside;
 }
 
 
