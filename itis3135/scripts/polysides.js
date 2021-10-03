@@ -59,7 +59,7 @@ function getShape(corrUser) {
 }
 
 function printShape(corrUser){
-    alert("The polygon that has that many sides is a: " + getShape(corrUser) + ".")
+    alert("The polygon that has that many sides is: " + getShape(corrUser) + ".")
 }
 
 do {
