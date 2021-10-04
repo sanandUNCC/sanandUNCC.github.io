@@ -1,20 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
+
+<head>
+    <meta charset="UTF-8">
     <link href="styles/default.css" rel="stylesheet" type="text/css">
     <meta name="Sai Anand" content="Activity 7 - Simple Online Calculator">
     <script src="scripts/calculator_try.js"></script>
     <title>Simple Online Calculator</title>
-    </head>
-    <body>
-        <header>
-            <h1>Sai Anand &gt;&gt; ITIS3135</h1>
-        </header>
-        <h2>Simple Online Calculator - Try</h2>
-    </body>
-    <footer>
-        <p>Page made by Satyrical Axolotl Inc. 2021</p>
+    <style>
+        div {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sai Anand &gt;&gt; ITIS3135</h1>
+    </header>
+    <h2>Simple Online Calculator - Try</h2>
+    <main>
+        <p>I had trouble with the functions for the operations and setting everything up in a container. <br>
+        I didn't get very far I coulnd't quite understand how we could send values into the script without a prompt.</p>
+
+    <div class="container">
+        <div>
+            <button class=button onclick=showNum(7)>7</button>
+            <button class=button onclick=showNum(4)>4</button>
+            <button class=button onclick=showNum(1)>1</button>
+            <button class=button onclick=showNum(8)>8</button>
+            <button class=button onclick=showNum(5)>5</button>
+            <button class=button onclick=showNum(2)>2</button>
+            <button class=button onclick=showNum(9)>9</button>
+            <button class=button onclick=showNum(6)>6</button>
+            <button class=button onclick=showNum(3)>3</button>
+        </div>
+        <div>
+            <button onclick = calculate()>=</button>
+        </div>
+    </div>
+    </main>
+    
+</body>
+<footer>
+    <p>Page made by Satyrical Axolotl Inc. 2021</p>
     <p>Is it satire, is it true? Pay us to find out.</p>
 
     <a href="">
@@ -22,5 +51,6 @@
 
     <a href="">
         <img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator" /></a>
-    </footer>
+</footer>
+
 </html>

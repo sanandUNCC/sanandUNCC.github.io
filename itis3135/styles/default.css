@@ -61,10 +61,18 @@ nav
 .center{
 	text-align: center;
 	list-style-position: inside;
+	
+}
+
+.container{
+	flex-direction: column;
+	width: 100px;
+  	height: 50px;
 }
 
 .button{
-	background-color: coral;
+	background-color:blanchedalmond;
+	color: black;
 }
 
 
