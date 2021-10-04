@@ -19,6 +19,10 @@ function subtract(a,b){
     alert("a - b = " + (a - b))
 }
 
+function calculate(){
+    
+}
+
 var a = showNum(num);
 var b = showNum(num);
 
