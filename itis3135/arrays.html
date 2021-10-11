@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link href="styles/default.css" rel="stylesheet" type="text/css">
     <meta name="Sai Anand" content="Activity 8 - Arrays">
+    <script src="scripts/arrays.js"></script>
     <title>Arrays</title>
 </head>
 
@@ -12,22 +13,63 @@
     <header>
         <h1>Sai Anand &gt;&gt; ITIS3135</h1>
     </header>
-    <main>
+    <main class="center">
         <h2>Activity 8 - Arrays</h2>
-        <label id="employee">Employee List</label>
-        
-        <select class = "button" id="empList">
-      
-           <option>...</option>
-           <option>Kanye East</option>
-        
-        </select>
-    </main>
+        <label for="employee">Employee List: </label>
 
+        <select id="empList">
+
+            <option>...</option>
+            <option>Keith Spencer</option>
+            <option>Kanye Yeast</option>
+            <option>Bobby Shmore</option>
+            <option>Jenny Antler</option>
+            <option>Ronald MacD</option>
+            <option>Monica Slinky</option>
+            <option>Bill Clifton</option>
+
+        </select>
+
+        <br>
+
+        <label for="salary">Enter Salary ($): </label>
+        <input type="number" id="salary" placeholder="ex. 10000" required>
+        
+        <br>
+        <br>
+
+        <button class="button" onclick="displayResults()">Display Results</button>
+        <button class="button" onclick="displaySalary()">Display Salary</button>
+        <button class="button" onclick="addSalary()">Add Salary</button>
+
+        <br>
+
+        <div id= "results"></div>
+
+        <br>
+
+        <table id = "results_table"></table>
+
+        <br>
+
+    </main>
 </body>
 
 <footer>
+    <p>Page built by Satyrical Axolotl Inc. 2021</p>
+    <p>Is it satire, is it true? Pay us to find out.</p>
 
+    <a 
+        href="">
+        <img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+    </a>
+
+
+
+    <a
+        href="">
+        <img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator" />
+    </a>
 </footer>
 
 </html>
