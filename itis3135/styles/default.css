@@ -76,13 +76,26 @@ nav
 }
 
 .slide{
-	width: 500px;
-	height: 300px;
+	width: 100px;
+	height: 60px;
 }
 
- li { 
-    display: inline; 
-} 
+.slide_main_image{
+	width: 500px;
+	height: 300px;
+	margin-left: 0%;
+}
+
+.picture_list{
+	display:inline-flex;
+    margin-left: 23%;
+    list-style-type: none;
+}
+
+.picture_list li{
+    background-color: rgb(43, 161, 63);
+    padding: 5px 5px 0px 5px;
+}
 
 
 
