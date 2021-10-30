@@ -1,0 +1,50 @@
+body
+{
+	font-family:'Lucida Handwriting', 'Helvetica';
+	color: #7c4377 ;
+	background-color: #272888;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+p{
+	color:bisque;
+	text-align: center;
+}
+
+
+header, footer
+{
+	text-align: center;
+	color: #a84242;
+	font-weight: bold;
+}
+
+h1, h2, h3
+{
+	color: #806683;
+	font-family: 'Monaco', "Lucida", 'Verdana';
+	text-align: center;
+}
+
+h3
+{
+	font-size: 200%;
+	line-height: 0px;
+}
+
+a
+{
+	text-decoration: none;
+	color:rgb(218, 25, 25);
+}
+
+a:hover
+{
+	text-decoration: overline underline;
+}
+
+nav
+{
+	text-align: center;
+}
