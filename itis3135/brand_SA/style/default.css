@@ -1,0 +1,43 @@
+body {
+    background-color: #F7C59F;
+    text-align: center;
+}
+
+header,
+footer {
+    text-align: center;
+    font-family: cursive;
+    color: #91972A;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 50px;
+    background-color: #004E89;
+}
+
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #1A659E;
+}
+
+.bodyp {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    color: #645244;
+}
+
+ul {
+    text-align: center;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #795663
+}
