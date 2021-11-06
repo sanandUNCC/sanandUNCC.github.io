@@ -3,11 +3,22 @@ body {
     text-align: center;
 }
 
-header,
-footer {
+.header,
+.footer {
     text-align: center;
     font-family: cursive;
-    color: #91972A;
+    color: #878d19;
+}
+
+.input{
+    font-family: cursive;
+    color:olivedrab;
+}
+
+.nav{
+    text-align: center;
+    font-family: cursive;
+    color: #505310;
 }
 
 h1 {
@@ -39,5 +50,5 @@ ul {
 
 a:hover {
     text-decoration: underline;
-    color: #795663
+    color: #943f5e
 }
