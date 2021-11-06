@@ -3,8 +3,8 @@ body {
     text-align: center;
 }
 
-header,
-footer {
+.header,
+.footer {
     text-align: center;
     font-family: cursive;
     color: #878d19;
