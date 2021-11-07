@@ -71,3 +71,8 @@ a:hover {
 	width: 1000px;
   	height: 400px;
 }
+
+li {
+	padding-right: 10px;
+	display: inline;
+}
