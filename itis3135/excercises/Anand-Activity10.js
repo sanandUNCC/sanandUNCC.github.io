@@ -7,29 +7,33 @@ $(document).ready(function () {
         });
 
         // set up the event handlers for each link
-        $("#image_list a").click(function (evt) {
+        $("#image_list a").click(evt => {
 
                 // get the image URL and caption for each image and animate the caption
-                var imageURL = $(this).attr("href");
-                var pic = $("#image").attr("src", imageURL)
-                pic.fadeOut(3000);
-                pic.next().fadeIn(3000);
 
-                var caption = $(this).attr("title");
-                var cap = $("#caption").text(caption)
-                cap.fadeOut(3000);
-                cap.next().fadeIn(3000);
+                var image = evt.currentTarget
+
+                $("#caption").animate({ fontSize: "1.5em" });
+
+                var imageURL = image.href;
+
+                $("#image").fadeOut(3000, function () {
+                        $("#image").attr('src', imageURL).fadeIn(3000);
+                });
 
 
-                callback(pic, cap);
+                var caption = image.title;
+
+                $("#caption").fadeOut(3000, function () {
+                        $("#caption").text(caption).fadeIn(3000, function () {
+                                $("#caption").animate({ fontSize: "2.0em" }, 3000);
+                        });
+                });
 
                 // cancel the default action of each link
                 evt.preventDefault();
         });
-        callback = function (pic, cap) {
-                pic.fadeOut(3000);
-                cap.fadeOut(3000);
-        }
+
         // move the focus to the first link
         $("li:first-child a").focus();
 }); // end ready
