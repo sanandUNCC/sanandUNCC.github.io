@@ -10,16 +10,16 @@
 
 <body>
     <header>
-        <header>
 
-            
-            <h1><a>
-                    <img src="images/logo.jpg" width="100" height="100" alt="Site Logo">
-                </a> Intracoastal Fishing Guide Tour Page<a>
-                    <img src="images/logo.jpg" width="100" height="100" alt="Site Logo">
-                </a></h1>
 
-        </header>
+
+        <h1><a>
+                <img src="images/logo.jpg" width="100" height="100" alt="Site Logo">
+            </a> Intracoastal Fishing Guide Tour Page<a>
+                <img src="images/logo.jpg" width="100" height="100" alt="Site Logo">
+            </a></h1>
+
+
 
 
         <nav>
@@ -31,6 +31,37 @@
         </nav>
         <br>
     </header>
+
+    <main>
+        <h2>Sign Up Form</h2>
+        <form action='#' onSubmit="printCust()">
+
+            <h3>Please enter your information below: </h3>
+            <p>
+                <label for="fname">Enter your first name: </label>
+                <input type="name" class=input id="fname" name="custFname" placeholder="John" required>
+            </p>
+
+            <p>
+                <label for="lname">Enter your last name: </label>
+                <input type="text" class=input id="lname" name="custLname" placeholder="Smith" required>
+            </p>
+
+            <p>
+                <label for="phone">Enter your phone number: </label>
+                <input type="tel" class=input id="phone" name="custphone" size=10 placeholder="1234567890" required>
+            </p>
+
+            <p>
+                <label for="email">Enter your email: </label>
+                <input type="email" class=input id="email" name="custemail" placeholder="johnsmith@gmail.com" required>
+            </p>
+
+            <p>
+                <input id="submit" type="submit" value="Submit" onclick="submit()">
+            </p>
+        </form>
+    </main>
 
     <footer>
         <p>Page built by Satyrical Axolotl Inc. 2021</p>
