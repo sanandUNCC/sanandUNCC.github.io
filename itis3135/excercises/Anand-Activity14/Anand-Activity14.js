@@ -12,7 +12,6 @@ $.ajax({
     dataType: "text",
     success: function (data) {
         var json = $.parseJSON(data);
-    // display results and show the information from json file
             $("main > h2").html(json.speakers[0].month + "<br/>");
             $("main > h1").html(json.speakers[0].title);
             $("main > h3").html(json.speakers[0].speaker);
