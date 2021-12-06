@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#image_list").bxSlider({
+    $("#image_list1").bxSlider({
         speed: 1000,
         captions: true,
         minSlides: 1,

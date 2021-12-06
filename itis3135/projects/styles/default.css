@@ -52,16 +52,21 @@ h2 {
     color: #264936;
 }
 
-
 ul {
     text-align: center;
     list-style-type: square;
     list-style-position: inside;
 }
 
+#id_pager {
+	text-align: center;
+	font-size: 90%;
+	color: green;
+}
+
 a:hover {
     text-decoration: underline;
-    color: #72974e;
+    color: #b13718;
 }
 
 .container{
@@ -75,4 +80,22 @@ a:hover {
 li {
 	padding-right: 10px;
 	display: inline;
+}
+
+
+.bx-wrapper img {
+    width: 100%;
+    height: 60%;
+    max-width: 100%;
+    display: block;
+    }
+
+.head-image{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#map{
+    height: 400px;
+    width: 500px;
 }
